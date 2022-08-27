@@ -52,7 +52,7 @@ Desc.BackgroundTransparency = 1.000
 Desc.Position = UDim2.new(0, 0, 0.680000007, 0)
 Desc.Size = UDim2.new(0, 200, 0, 16)
 Desc.Font = Enum.Font.Gotham
-Desc.Text = "Script made by Galaxy or Kxng#0001"
+Desc.Text = "Script made by Scxtt or Scxtt#0001"
 Desc.TextColor3 = Color3.fromRGB(255, 255, 255)
 Desc.TextSize = 12.000
 Desc.TextTransparency = 1.000
@@ -329,7 +329,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Galaxy's Admin IY"
+Title.Text = "Scxtt's Admin IY"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
