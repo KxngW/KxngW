@@ -6,3 +6,4 @@ elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
 
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KxngW/KxngW/main/MiningClickerSim.lua'))()
+end
