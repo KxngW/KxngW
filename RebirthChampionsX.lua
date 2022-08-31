@@ -1,4 +1,3 @@
-if game.PlaceId == 8540346411 then
 getgenv().AutoClick = false
 getgenv().AutoRebirth = false
 getgenv().AutoEgg = false
@@ -10,8 +9,6 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
-
 
 function AutoClick()
     if getgenv().AutoClick then
@@ -234,8 +231,4 @@ DiscordTab:AddButton({
         end
   	end    
 })
-
----END---
-
 OrionLib:Init()
-end
