@@ -3,7 +3,7 @@ repeat
 until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:IsLoaded()
 
 if game.PlaceId == 9498006165 then -- Tapping Simulator!
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/KxngW/KxngW/main/KingdomHub.Lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KxngW/KxngW/main/TappingSim.Lua"))()
 
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KxngW/KxngW/main/MiningClickerSim.lua'))()
