@@ -1,23 +1,6 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Kingdom Hub Notice";
-    Text = "More Scripts Coming Soon.";
-    Duration = 25;
-})
-
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "[DISCORD]";
-    Text = "https://discord.gg/JwVw4UuDat";
-    Duration = 25;
-})
-
-
-if setclipboard then
-    setclipboard("https://discord.gg/JwVw4UuDat")
-end
-
 if game.PlaceId == 9498006165 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Kingdom Hub", HidePremium = false, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
+local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = false, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
 
 --Valuses
 _G.autoTap = true
