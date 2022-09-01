@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = false, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
+local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = true, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
 
 --Valuses
 
