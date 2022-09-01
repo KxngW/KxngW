@@ -3,7 +3,7 @@ getgenv().AutoRebirth = false
 getgenv().AutoEgg = false
 getgenv().AutoCraft = false
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = false, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
+local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = true, IntroText = "Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
 local Tab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
