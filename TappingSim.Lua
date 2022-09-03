@@ -16,7 +16,7 @@ function autoTap()
 end
 function autoRebirth()
     while _G.autoRebirth == true do
-        game:GetService("ReplicatedStorage").Events.Rebirth:FireServer((game.Players.LocalPlayer.PlayerGui.UI.NextRebirth.CurrentRebirth.Amount.LocalizedText))
+        game:GetService("ReplicatedStorage").Events.Rebirth:FireServer((game.Players.LocalPlayer.PlayerGui.UI.QuickRebirth.NextRebirth.Amount.LocalizedText))
         wait()
     end
 end
