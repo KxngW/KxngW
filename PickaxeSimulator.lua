@@ -1,4 +1,5 @@
 local CollectionService = game:GetService("CollectionService")
+if game.PlaceId == 10204162989 then
     local autofarm = false
     local autohatch = false
     local autochest = false
@@ -166,7 +167,7 @@ local CollectionService = game:GetService("CollectionService")
 
 
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = true, IntroText = "👑 Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
+    local Window = OrionLib:MakeWindow({Name = "👑 Kingdom Hub", HidePremium = false, IntroText = "👑 Kingdom Hub", SaveConfig = false, ConfigFolder = "Kingdom Hub"})
     local Tab =
         Window:MakeTab(
         {
