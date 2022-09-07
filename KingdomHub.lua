@@ -13,4 +13,7 @@ elseif game.PlaceId == 7177496972 then -- Anime Warriors
 
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KxngW/KxngW/main/RebirthChampionsX.lua"))()
+
+elseif game.PlaceId == 10204162989 then -- Pickaxe Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KxngW/KxngW/main/PickaxeSimulator.lua"))()
 end
