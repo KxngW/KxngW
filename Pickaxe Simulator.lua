@@ -1,5 +1,4 @@
 local CollectionService = game:GetService("CollectionService")
-if game.PlaceId == 10204162989 then
     local autofarm = false
     local autohatch = false
     local autochest = false
